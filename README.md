@@ -2,26 +2,32 @@
 
 This project demonstrates hand detection using OpenCV and MediaPipe. It captures video from your computer's default camera, detects hands in real-time, and overlays landmarks and connections on the detected hands.
 
-## How to Use
+## Overview
 
-1. Clone or download this project.
-2. Ensure that Python is installed and the required libraries are installed (OpenCV and MediaPipe).
-3. Run the project.
-4. Bring your hand in front of your camera. When detected, you should see your hands with landmarks and connections overlaid.
-5. Press the "q" key on your keyboard to exit the application.
+This project showcases real-time hand detection and tracking using computer vision techniques. It can be a valuable foundation for various applications involving hand interaction.
 
-## Used Libraries
+## Usage
 
-- [OpenCV](https://opencv.org/): Used for computer vision tasks.
-- [MediaPipe](https://mediapipe.dev/): Used for hand detection and tracking.
+1. Clone or download this project to your local machine.
+2. Ensure you have Python installed.
+3. Install the necessary libraries by running `pip install opencv-python mediapipe`.
+4. Run the `hand_detection.py` script.
+5. The application will access your computer's default camera and display real-time hand detection.
 
-## Project Files
 
-- `hand_detection.py`: The main Python file containing the hand detection code.
-- `README.md`: This file containing project descriptions.
+## Dependencies
+
+Make sure you have the following dependencies installed before running the code:
+- [Python](https://www.python.org/): The programming language used for this project.
+- [OpenCV](https://opencv.org/):  Open-source computer vision library
+- [MediaPipe](https://mediapipe.dev/): A framework for building multimodal (eg. hands, face, pose) pipelines.
 
 ## Important Notes
 
-- Make sure you have installed the required OpenCV and MediaPipe libraries for the code to work properly.
+This project provides a solid starting point for hand detection and tracking applications or for those interested in computer vision. Feel free to modify and extend the code to suit your specific needs.
 
-This project serves as an excellent starting point for hand detection and tracking applications or for those interested in computer vision. Enjoy exploring!
+## Author
+
+This project was created by Lacelinus. You can reach out to me at ekremkprn2@gmail.com for any questions or suggestions.
+
+Enjoy exploring and experimenting with hand detection using OpenCV and MediaPipe!
